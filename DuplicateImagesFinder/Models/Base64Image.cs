@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DuplicateImagesFinder.Models
 {
-    class Base64Image
+    public class Base64Image
     {
         public string Path { get; private set; }
 
