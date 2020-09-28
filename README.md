@@ -35,18 +35,20 @@ A simple console application to find duplicate images.
 - Images have to be an exact match, including dimensions and image quality.
 
 ## Considerations
-* What if this same solution was used on a really large set of photos? What if it was a thousand photos? Or tens of thousands?
+> What if this same solution was used on a really large set of photos? What if it was a thousand photos? Or tens of thousands?
 
 It should work, but is likely to eventually run out of memory based on the number of images. The larger the images, the longer it will take.
 
-* What if this was a three-way merge, with triplicates? Does your solution account for this?
+> What if this was a three-way merge, with triplicates? Does your solution account for this?
 
 This has been considered.
 
 
-* Some of these files may have had their filename changed.
+> Some of these files may have had their filename changed.
+
 Shouldn't be an issue. We don't care for the filenames.
 
 
-* Some of these may have only their extension changed.
+> Some of these may have only their extension changed.
+
 Shouldn't be an issue either, we open up the images and convert the opened image to base64.
