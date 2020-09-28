@@ -20,7 +20,8 @@ A simple console application to find duplicate images.
 		- Make sure the path passed in as argument has escaped backslashes.
 
 	- You should see an result that looks something like the image below.
-	  ![Results](.\example_results.png)
+	  ![Results](example_results.png)
+	  
 
 ## How to run unit tests?
 - Open up a command prompt or powershell window in the repo directory.
