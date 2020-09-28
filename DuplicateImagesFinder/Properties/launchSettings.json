@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DuplicateImagesFinder": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\Repos\\Cogent\\Code Test\""
+    }
+  }
+}
